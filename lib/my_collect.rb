@@ -8,6 +8,6 @@ def my_collect(students)
   first_names
 end
 
-my_collect(students) do |name|
+my_collect([]) do |name|
   name.split(" ").first
 end
